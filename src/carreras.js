@@ -7,9 +7,9 @@ export const CARRERAS = [
     nombre: "Licenciatura en Psicología",
     nombrecorto: "Lic. en Psicología",
     creditos: {
-      total: 35,
-      obligatorias: 34,
-      electivas: 1,
+      total: 36,
+      obligatorias: 33,
+      electivas: 3,
     },
   },
 ];

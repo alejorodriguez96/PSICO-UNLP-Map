@@ -17,7 +17,7 @@
     "react-snowfall": "^1.1.1",
     "use-resize-observer": "^9.0.2"
   },
-  "homepage": "https://fede.dm/FIUBA-Map",
+  "homepage": "https://alejorodriguez96.github.io/PSICO-UNLP-Map",
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",

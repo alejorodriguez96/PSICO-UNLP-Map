@@ -15,7 +15,6 @@ import {
   PopoverTrigger,
   Progress,
   Stat,
-  StatHelpText,
   StatLabel,
   StatNumber,
 } from "@chakra-ui/react";
@@ -24,7 +23,7 @@ import { FaGraduationCap } from "react-icons/fa";
 import { GraphContext, UserContext } from "../../Contexts";
 
 const ProgressBar = () => {
-  const { user, isMobile } = React.useContext(UserContext);
+  const { isMobile } = React.useContext(UserContext);
   const {
     creditos,
     toggleCheckbox
@@ -94,17 +93,8 @@ const ProgressBar = () => {
                   <StatLabel><strong>{c.nombre}</strong></StatLabel>
                   {!c.checkbox && (
                     <>
-                      <StatNumber fontWeight="normal" fontSize="larger">{c.creditos}{!!c.creditosNecesarios && ` de ${c.creditosNecesarios} `} créditos</StatNumber>
-                      {!c.creditosNecesarios &&
-                        <StatHelpText fontSize="smaller">
-                          Elegí {user.carrera.eligeOrientaciones && !user.orientacion ? "orientación" : ""}
-                          {user.carrera.eligeOrientaciones && !user.orientacion && !user.finDeCarrera ? " y " : ""}
-                          {!user.finDeCarrera ? "entre tesis y tpp" : ""} para saber cuantos necesitás.
-                        </StatHelpText>
-                      }
-                      <>
-                        {!!c.nmaterias && <StatHelpText fontSize="smaller">({c.nmaterias} {c.nmaterias === 1 ? 'materia aprobada' : 'materias aprobadas'}{c.totalmaterias && ` de ${c.totalmaterias}`})</StatHelpText>}
-                      </>
+                      <StatNumber fontWeight="normal" fontSize="larger">{c.creditos}{!!c.creditosNecesarios && ` de ${c.creditosNecesarios} `} materias</StatNumber>
+
                     </>
                   )}
                 </Stat>
