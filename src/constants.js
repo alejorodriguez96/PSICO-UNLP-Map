@@ -2,22 +2,22 @@ import CARRERAS from "./carreras";
 import { COLORS } from "./theme";
 
 export const USER_FORM =
-  "https://docs.google.com/forms/u/1/d/e/1FAIpQLSedZWz0SJOLsxEscmHo8FDdTQyIF5xTczGBqr1Z6oLwKwiemw/formResponse";
+  "https://docs.google.com/forms/d/e/1FAIpQLSeNGZLfvhsFrfQtESTTlrlaWVFT2pbIbP3rj-eRfG5NcbyVEA/formResponse";
 
 export const USER_FORM_ENTRIES = {
-  padron: "entry.1608351524",
-  carrera: "entry.1130086596",
-  orientacion: "entry.1483291801",
-  finDeCarrera: "entry.310979509",
+  padron: "entry.1663030365",
+  carrera: "entry.1632283846",
+  orientacion: "entry.298737325",
+  finDeCarrera: "entry.1091014762",
 };
 
 export const GRAPH_FORM =
-  "https://docs.google.com/forms/d/e/1FAIpQLScEomNxSEdv07ifB9ep5olsemzRjdPoMMhWL6GLGhswm93shg/formResponse";
+  "https://docs.google.com/forms/d/e/1FAIpQLScoeBk1bvCw4Y0X0hoSlmPnuuGfgqk9IrIorHpm6MaoQtylyg/formResponse";
 
 export const GRAPH_FORM_ENTRIES = {
-  padron: "entry.2064135385",
-  carrera: "entry.977368567",
-  map: "entry.2113204957",
+  padron: "entry.651185549",
+  carrera: "entry.728299145",
+  map: "entry.1761937092",
 };
 
 export const BUGS_FORM =
@@ -32,14 +32,14 @@ export const BUGS_FORM_ENTRIES = {
 };
 
 export const SPREADSHEET =
-  "https://sheets.googleapis.com/v4/spreadsheets/1b6h2RApBs2xbN6-eGVvxH68EALKDklvS91fb7d_IVz4/values";
+  "https://sheets.googleapis.com/v4/spreadsheets/1MupIAqkHxBQ6F0Qx2_cdShedChmO2qxQoOYmR_YrFXc/values";
 
 export const SHEETS = {
   user: "usuarios",
-  registros: "registros",
+  registros: "mapas",
 };
 
-export const KEY = process.env.REACT_APP_FEDE_KEY || "AIzaSyA9snz4CXDq_K8fJeUXkRtRZAQM90HTFp4";
+export const KEY = "AIzaSyBN67qib5TlWLDCT0LAPiJUHNxkuqIgh54";
 
 const drawFinDeCarrera = ({
   ctx,
@@ -178,8 +178,8 @@ export const GRAPHOPTIONS = {
 
 export const CREDITOS = {
   "CBC": {
-    nombrecorto: "CBC",
-    nombre: "Ciclo Básico Común",
+    nombrecorto: "C.I.",
+    nombre: "Curso de Ingreso",
     bg: COLORS.aprobadas[50],
     color: "aprobadas",
   },
