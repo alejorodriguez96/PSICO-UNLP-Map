@@ -1,22 +1,13 @@
-# [FIUBA Map](https://fede.dm/FIUBA-Map/)
+# PSICO-UNLP Map
 
-Mapa de materias y sus correlativas de la Facultad de Ingeniería
+Mapa de materias y sus correlativas de la carrera de Psicología de la UNLP.
 
 ---
 
-La idea de este proyecto es presentar de una manera interactiva el plan de estudios de las carreras de la Facultad de Ingeniería, Universidad de Buenos Aires, para saber que materias se pueden cursar, cuantos créditos se tienen actualmente y demás.
+Este proyecto está basado en el proyecto [FIUBA Map](http://fede.dm/FIUBA-Map) creado por [FdelMazo](http://fede.dm/) para  presentar de una manera interactiva el plan de estudios de las carreras de la Facultad de Ingeniería, Universidad de Buenos Aires, para saber que materias se pueden cursar, cuantos créditos se tienen actualmente y demás.
 
-<a href='https://imgur.com/QkXbwFc'><img src='public/fmap.png'></a>
 
-- Tiene todas las carreras que se dan en la Facultad de Ingeniería, en sus respectivos últimos planes de estudio.
-
-- Todas las carreras incluyen todas las materias electivas y todas las materias de sus respectivas orientaciones.
-
-- Trackea la cantidad de créditos que se tienen en la carrera, incluyendo si se quiere terminar con tésis/tpp, y que orientación se elige
-
-- Base de datos! Se pueden marcar todas las materias apobradas y guardarlas bajo un padrón (o cualquier clave).
-
-- Poner materias en final! Para no olvidarse los finales colgados.
+La idea es adaptar este proyecto para la carrera de Psicología de la UNLP, y agregarle algunas funcionalidades que se consideren útiles.
 
 ---
 
