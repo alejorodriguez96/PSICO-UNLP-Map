@@ -74,12 +74,6 @@ const Promedio = () => {
             </Text>
             <Text fontSize="md">{promedio.promedioConAplazos}</Text>
           </Flex>
-          <Flex justifyContent="space-between" alignItems="center">
-            <Text fontSize="md">
-              <strong>Promedio con CBC</strong>
-            </Text>
-            <Text fontSize="md">{promedio.promedioConCBC}</Text>
-          </Flex>
         </PopoverBody>
       </PopoverContent>
     </Popover>
